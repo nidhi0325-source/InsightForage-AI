@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-i&g9$wi%0o8+t@6-dz^bz#*e=#f(otgcu-om6ym@lnm95r_4w-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "insightforage-ai.onrender.com",
+]
 
 
 # Application definition
